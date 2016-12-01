@@ -1,0 +1,136 @@
+
+
+font-family: 'Lobster Two', cursive;*/
+
+.nav-pills{
+	font-family: 'Lobster Two', cursive;
+	font-size: 1.7em;
+
+}
+/*1.7em means 1.7 times the size*/
+
+/* below:
+when i added ids p2 p3 and p4 the rest of the 
+of the unordered list got small so i used class
+pull right to have same as .nav pills*/
+.pull-right{
+	font-family: 'Lobster Two', cursive;
+	font-size: 1.7em;
+
+}
+
+body{
+	background-color: white;
+	font-family: 'Lobster Two', cursive;
+	color: purple;
+
+}
+
+
+ h1{
+	padding:0;
+	margin-top: 0px;
+	/*text-align: center;*/
+	font-size: 5.0em
+}
+/*linkedin ex: https://www.linkedin.com/in/karunasehgal?trk=seokp-title_posts_secondary_cluster_res_author_name*/
+.nav-pills{
+	background: transparent;
+	margin-bottom: 15%;
+
+}
+
+
+/*moves gray box down 15% from menue*/
+a[href="#"]{
+	font-size: 30px;
+}
+.pageOne{
+	background: url("https://upload.wikimedia.org/wikipedia/commons/c/c3/NGC_4414_(NASA-med).jpg");
+	background-size: cover;
+	height: 800px;
+	margin-top: 0px;
+
+	
+
+}
+.pageTwo{
+	background: url("https://images2.alphacoders.com/526/526200.jpg");
+    background-size: cover;
+	height: 800px;
+	padding-top: 5%;
+	padding-bottom: 5%
+}
+/*padding top moves div class pageTwo
+Percentages	refer to the width 
+of the containing block
+left and right are respective to the width, whereas 
+top and bottom are respective to the height.*/
+.btn-default{
+	color:  #ff0066;
+	font-size: 1.7em;
+}
+/*dark shade of pink,  #ff0066; for button*/
+
+/*margin-top: -30px;  got rid of black bacground and
+now bar blends in with image.
+Negative top and left margins move the 
+element up and left while negative right and bottom margins 
+make following siblings move left and up.*/
+
+.fa-linkedin{
+	color: rgb(0,172,217);
+}
+.fa-github{
+	color: rgb(202,43,329);
+}
+
+p{
+	font-size: 2.0em
+
+}
+
+.block{
+	background-color: grey;
+	opacity: 0.8;
+	padding: 10px;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 10px;
+
+}
+.me{
+	height: 300px;
+	width:340px;
+	border-radius: 50%;
+	}
+	/*original image was 
+	height: 400px;
+	width:640px;*/
+
+/*
+.block refers to <div class="block text-center">
+centers it margin-right: auto;
+	margin-left: auto; 
+	*/
+
+.pageThree{
+	background: url("https://images.designtrends.com/wp-content/uploads/2016/04/07071916/Best-Galaxy-Wallpapers.jpg");
+    background-size: cover;
+	/*height: 800px;*/
+	padding-top: 5%;
+	/*padding-bottom: 5%*/
+}
+
+.pageFour{
+	background: url("https://newevolutiondesigns.com/images/freebies/galaxy-wallpaper-8.jpg");
+    background-size: cover;
+	height: 800px;
+	padding-top: 10%;
+}
+.paddingTop{
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
