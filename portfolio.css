@@ -46,6 +46,11 @@ a[href="#"]{
 	font-size: 30px;
 }
 .pageOne{
+	/*download pic on facebook
+	imgur.com
+	drag it
+	 right click on image in imgur copy image address 
+	 paste it to a new tab then you have jpg file*/
 	background: url("https://upload.wikimedia.org/wikipedia/commons/c/c3/NGC_4414_(NASA-med).jpg");
 	background-size: cover;
 	height: 800px;
@@ -101,8 +106,8 @@ p{
 
 }
 .me{
-	height: 300px;
-	width:340px;
+	height: 400px;
+	width:300px;
 	border-radius: 50%;
 	}
 	/*original image was 
