@@ -5,6 +5,7 @@ font-family: 'Lobster Two', cursive;*/
 .nav-pills{
 	font-family: 'Lobster Two', cursive;
 	font-size: 1.7em;
+	color : white;
 
 }
 /*1.7em means 1.7 times the size*/
@@ -22,7 +23,7 @@ pull right to have same as .nav pills*/
 body{
 	background-color: white;
 	font-family: 'Lobster Two', cursive;
-	color: purple;
+	color: white;
 
 }
 
@@ -133,6 +134,7 @@ centers it margin-right: auto;
     background-size: cover;
 	height: 800px;
 	padding-top: 10%;
+
 }
 .paddingTop{
 	padding-top: 2%;
