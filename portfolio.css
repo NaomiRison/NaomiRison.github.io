@@ -5,7 +5,7 @@ font-family: 'Lobster Two', cursive;*/
 .nav-pills{
 	font-family: 'Lobster Two', cursive;
 	font-size: 1.7em;
-	color : white;
+	color: white;
 
 }
 /*1.7em means 1.7 times the size*/
@@ -34,6 +34,10 @@ body{
 	/*text-align: center;*/
 	font-size: 5.0em
 }
+
+h3{
+	color: white;
+}
 /*linkedin ex: https://www.linkedin.com/in/karunasehgal?trk=seokp-title_posts_secondary_cluster_res_author_name*/
 .nav-pills{
 	background: transparent;
@@ -57,9 +61,11 @@ a[href="#"]{
 	height: 800px;
 	margin-top: 0px;
 
-	
-
 }
+
+
+
+
 .pageTwo{
 	background: url("https://images2.alphacoders.com/526/526200.jpg");
     background-size: cover;
@@ -134,6 +140,7 @@ centers it margin-right: auto;
     background-size: cover;
 	height: 800px;
 	padding-top: 10%;
+	text-align: center;
 
 }
 .paddingTop{
@@ -149,4 +156,49 @@ centers it margin-right: auto;
 .skills{
 	font-size: 2.7em;
 }
+
+
+.menu-icon{
+		
+		position: fixed;
+		top: 0;
+		left: 30px;
+		margin-left: 80px
+		font-size: 30px;
+		border-width: 0;
+           background: transparent;
+           display: none;
+          
+
+	}
+
+ @media (max-width: 480px) {
+
+ 	  .nav li{
+ 	  	display:inline-block;
+
+ 	  } 
+ 	  .me{
+ 	  	   height: 300px;
+	       width:200px;
+	       border-radius: 30%;
+
+ 	  }
+ 	  .block{
+ 	  	width:100%;
+ 	  }
+ 	  .menu-icon{
+ 	  	display: block;
+ 	  }
+ 	  .skills{
+	font-size: 1.7em;
+}
+	.pageFour{
+		padding-top: 50%;
+		
+		
+ }
+
+
+
 
