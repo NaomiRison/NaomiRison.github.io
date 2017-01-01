@@ -7,6 +7,7 @@ font-family: 'Lobster Two', cursive;*/
 	font-size: 1.7em;
 	color: white;
 
+
 }
 /*1.7em means 1.7 times the size*/
 
@@ -43,7 +44,9 @@ h3{
 	background: transparent;
 	margin-bottom: 15%;
 
+
 }
+
 
 
 /*moves gray box down 15% from menue*/
@@ -60,6 +63,7 @@ a[href="#"]{
 	background-size: cover;
 	height: 800px;
 	margin-top: 0px;
+	background-attachment: fixed;
 
 }
 
@@ -71,7 +75,9 @@ a[href="#"]{
     background-size: cover;
 	height: 800px;
 	padding-top: 5%;
+	background-attachment: fixed;
 	padding-bottom: 5%
+	
 }
 /*padding top moves div class pageTwo
 Percentages	refer to the width 
@@ -99,6 +105,7 @@ make following siblings move left and up.*/
 
 p{
 	font-size: 2.0em
+	
 
 }
 
@@ -133,6 +140,7 @@ centers it margin-right: auto;
 	/*height: 800px;*/
 	padding-top: 5%;
 	/*padding-bottom: 5%*/
+	background-attachment: fixed;
 }
 
 .pageFour{
@@ -141,6 +149,7 @@ centers it margin-right: auto;
 	height: 800px;
 	padding-top: 10%;
 	text-align: center;
+	background-attachment: fixed;
 
 }
 .paddingTop{
@@ -174,10 +183,10 @@ centers it margin-right: auto;
 
  @media (max-width: 480px) {
 
- 	  .nav li{
+ 	/*  .nav li{
  	  	display:inline-block;
 
- 	  } 
+ 	  }*/ 
  	  .me{
  	  	   height: 300px;
 	       width:200px;
@@ -198,6 +207,11 @@ centers it margin-right: auto;
 		
 		
  }
+ div.pageOne ul li{
+ 	float: none;
+ 	display:block;
+ }
+}
 
 
 
