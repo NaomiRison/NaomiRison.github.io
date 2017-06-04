@@ -1,157 +1,171 @@
 <!DOCTYPE html>
-<!--  wow. js :   http://mynameismatthieu.com/WOW/docs.html -->
-<html lang="en">
+<html>
 <head>
-<!--host wepages  on githubpages here is the video:
-https://www.youtube.com/watch?v=rRGrT0wsJxI
- put projects in io file and then update  on github update it -->
-	<title>Personal portfolio</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- http://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html
-	Hosting a Static Website on Amazon S3 
-	youtube video https://www.youtube.com/watch?v=g9NbuTcos18-->
 
-		<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<title>landing Page for new Portfolio</title>
 
-<!-- Optional theme -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-
-	<link rel="stylesheet" type="text/css" href="portfolio.css">
-
-	<link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet"> 
 
 	<!--cdn below from https://www.bootstrapcdn.com/fontawesome/  -->
 
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-    <link rel="stylesheet" type="text/css" href="foodwebsite/vendors/css/grid.css">
-    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
-
 	
-
-	
+	<link rel="stylesheet" type="text/css" href="styling.css">
+	<link href="https://fonts.googleapis.com/css?family=El+Messiri:700" rel="stylesheet"> 
 
 </head>
 <body>
+<nav class="navbar navbar-default">
+		<!-- this give a navbar grey faint background <-->
+		<div class="container">
+			<!-- put navbar header in container for their to be spacing of li's -->
+			<!-- container resticts content in navabar and not navbar itself -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+       			 <span class="sr-only">Toggle navigation</span>
+        		<span class="icon-bar"></span>
+       			 <span class="icon-bar"></span>
+        		<span class="icon-bar"></span>
+     			 </button>
+				<!-- usually where company name goes 
+				click on it, a tag below with
+				class navrbar brand-->
+				<div>
+			<img src="images/brooklynbridge.png"
+			class="logo">
+		</div>
 
-<!-- challenge from free codecamp-->
-<!--  animations for titles,  https://daneden.github.io/animate.css/ -->
-<!--  wow.js  , http://codepen.io/TimLamber/pen/dLxbF -->
-	
-	
-		<div class="pageOne"  data-stellar-background-ratio="0.5">
-    	
-          
-    		<ul class="nav nav-pills">
-
-
-			<!-- class="nav nav-pills" is a styled unordered list built in boostrap
-	
-			boostrap has built in class that floats elements to left or in this case right called class="pull-right" more about this at:
-
-			http://www.w3schools.com/bootstrap/bootstrap_ref_css_helpers.asp -->
-
-			<button class="menu-icon">☰</button>
-			<li class="pull-right">
-				<a href="#p4">Contact Me</a>
-			</li>
+			</div>
+			<!-- adding the class="collapse navbar-collapse" id="	bs-example-navbar-collapse-1" -->
+			<div class="collapse navbar-collapse" id="	bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li><a href="#about">About</a></li><li><a href="#"></a></li>
+					<li><a href="#skills">Skills</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
 			
-			
-			<li class="pull-right">
-				<a href="#p2">Skills</a>
-			</li>
-			<li class="pull-right">
-				<a href="#p3">Portfolio</a>
-			</li>
-			
-		 </ul>
+				</ul>
+			</div>
+		</div>
+		
+	</nav>
 
-	
-			<!-- <div class="pageOne"> -->
-			<div class="block text-center ">
-			     <!-- boostrap has made class called text center that centers text -->
-				<h1>Naomi Ruth Rison</h1>
-			    <h3>Always learning to enhance skills</h3>
+	<div class="newport">
+		<div class="container">
+		<!-- conatiner in botstrap is restricted width and not full width like conatiner-fluid -->
+			<!-- <div>
+			<img src="images/brooklynbridge.png"
+			class="logo">
+		</div> -->
+		<!-- create feature parts -->
+		<!-- want title to have limited width  say 
+		less than nine columns.  use row class and another div for 9 columns
+		-->
+		<div class="featured">
+			<div class="row">
+			<!-- create row with grid system.
+			use 9 out of 12 colums for median and
+			large devices -->
+				<div class="col-md-9">
+						<div class="block text-center ">
+			     		<!-- boostrap has made class called text center that centers text -->
+						<h1>Naomi Ruth Rison</h1>
+						<h2>Junior Front Developer</h2>
+			    		<h3>Always learning to enhance skills</h3>
+					</div>
+						
+						
+						
+					<!-- <p>
+						<a href="#" class="btn btn-default btn-lg">Projects</a>
+						<a href="#" class="btn btn-default btn-lg">Contact</a>
+					</p> -->
+				</div>
 			</div>
 			
-			
-
-	  </div>
-	  
-	
-	
-   
-
-	 
-	  <div class="pageTwo" id="p2" data-stellar-background-ratio="0.5">
-	   <div class="row">
-
-		<div class="col-md-6 ">
-		
-			<h1>
-				Skills
-			</h1>
-			<ul class="skills ">
-				
-				<li>Programming Languages:  HTML5, CSS/CSS3, JavaScript, core java, Bootstrap and basic exposure to SQL</li>
-				<li>JavaScript Libraries: jQuery</li>
-                <li>Basic exposure to Sass</li>
-				<li>Source Code Control:Git</li>
-				<li>Programming Editors/IDEs: Sublime Text 3, IntelliJ IDEA</li>
-                <li>Exposure to responsive design</li>
-                <li> exposure with working with API</li>
-			</ul>
-				
-              
-              
-              
-              </div>
-
-		<!-- <div class="col-md-6">
-			<img src="http://i.imgur.com/2c4bmpT.jpg" class="me">
-			
-		</div> -->
+		</div>
+		</div>
+	</div>
+	<br>
+	<section class="summary" id="about">
+		<div class="container">
+		<h2>About</h2>
+		<p>
+			"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+		</p>
 			
 		</div>
-	</div>	
+		
+	</section>
+   <hr class="style17">
+   <br>
+	<section id="skills" class="summary">
+		<div class="container">
+				<h2>skills</h2>
+			<ul class="skills ">
+					
+					<li> HTML/HTML5 </li>
+					<li>CSS/CSS3</li>
+					<li>JavaScript,</li>
+					<li>core java</li>
+					<li>Bootstrap </li>
+					<li>jQuery</li>
+	                <li>Sass</li>
+					<li>Source Code Control:Git</li>
+					<li>Programming Editors/IDEs: Sublime Text 3, IntelliJ IDEA</li>
+					<li>basic exposure to SQL</li>
+	                <li>Exposure to responsive design</li>
+	                <li> exposure to working with API's</li>
+				</ul>
+		</div>
+		
+	</section>
+	<hr class="style17">
+   <br>
+   <section id="portfolio">
+		<h2>Portfolio</h2>
+		<!-- <div class="container"> -->
+			<div class="row">
+				<!-- <div class="col-md-6"> -->
+					<div class=" col-md-6 col-lg-6">
 
-    <div class="pageThree text-center" id="p3" data-stellar-background-ratio="0.5">
-    	<div class="paddingTop">
-    		<h1>Portfolio</h1>
-    		
-    	</div>
-        <div class="row">
-            <div class=" col span-1-of-2 ">
+		                <a href="https://naomirison.github.io/foodwebsite/"><img src="http://i.imgur.com/taY6y5w.png"  height="300" width="500"></a>
+		                
+		              
+		                
+		                <a href=" https://naomirison.github.io/foodwebsite/"><h3>food website</h3></a>
+		                <p>used: html5, css3, and jQuery</p>
 
-                <a href="https://naomirison.github.io/foodwebsite/"><img src="http://i.imgur.com/taY6y5w.png"  height="300" width="500"></a>
-                
-              
-                
-                <a href=" https://naomirison.github.io/foodwebsite/"><h3>food website</h3></a>
+	            	</div>
+	            	<div class=" col-md-6 col-lg-6">
+			            <a href="https://naomirison.github.io/weather-app/"><img src="http://i.imgur.com/IMs92HW.png" height="300" width="500"></a>
+			            <a href=" "><h3>weather app</h3></a>
+			                
+			            <p>used: html, css, jQuery, AJAX and JSON</p>
+           			</div>
 
-            </div>
-            <div class="col span-1-of-2">
-            <a href="https://naomirison.github.io/weather-app/"><img src="http://i.imgur.com/IMs92HW.png" height="300" width="500"></a>
-            <a href=" "><h3>weather app</h3></a>
-                
-            <p>used: html, css, jQuery, AJAX and JSON</p>
-           </div>
-                <!--  -->
-                
-        </div>
-        <div class="row">
-            <div class=" col span-1-of-2">
+					
+				<!-- </div> -->
+			</div>
+			<div class="row">
+				<div class=" col-md-6 col-lg-6">
                      <a href="https://naomirison.github.io/weddingCakes/"><img src="http://i.imgur.com/y0XLVzV.jpg"  height="300" width="500"></a>
                 
                       <a href="  "><h3>wedding cakes </h3></a>
                 
                      <p>used: html/html5,css,  Stellar.js and bootstrap</p>
                 </div>
-                <div class=" col span-1-of-2">
+                <div class="col-md-6 col-lg-6">
                      <a href=" https://naomirison.github.io/startup-landing-page/"><img src="http://i.imgur.com/EfBhXjp.jpg" class="snapshot1" height="300" width="500"></a>
               
                     
@@ -159,81 +173,21 @@ https://www.youtube.com/watch?v=rRGrT0wsJxI
                
                     <p>used: html/html5,CSS, bootstrap</p>
                 </div>
-        </div>
-        <div class="row">
-        <div class=" col span-1-of-2">
+			</div>
+			<div class="row">
+				<div class=" col-md-6 col-lg-6">
                       <a href="https://naomirison.github.io/todolist/"><img src="http://i.imgur.com/ycWDWSr.png"  height="300" width="500"></a>
                 
                      <a href=" "><h3>to do list app</h3></a>
                 
                         <p>used: html, css, jQuery</p>
                 </div>
-          
-        </div>
-
-         
-
-       <!--  ////////////////////////////////////////////fixing!!////////////
-    	<div class="container">
-    		<div class="row ">
-    		  	<!-- new project-->
-               <!--  <div class="col-md-6">
-                
-                
-                <p>used: html5, css3, jQuery</p>
-                <div class="col-md-6">
-    		  	 <!-- below from codepen, click embed link to get preview of code
-    		   		copy and paste -->
-                   <!--  <a href=" https://naomirison.github.io/startup-landing-page/"><img src="http://i.imgur.com/EfBhXjp.jpg" class="snapshot1" height="300" width="500"></a>
-    		  
-    		 		
-    		          <a href=" https://naomirison.github.io/startup-landing-page/"><h3>purrfect match</h3></a>
-               
-                	<p>used: html/html5,CSS, bootstrap</p>
-          		</div>
-          		
-               <div class="row">
-                   <div class="col-md-6">
-        
-                    <a href="https://naomirison.github.io/weddingCakes/"><img src="http://i.imgur.com/y0XLVzV.jpg"  height="300" width="500"></a>
-                
-                      <a href="  "><h3>wedding cakes </h3></a>
-                
-                     <p>used: html/html5,css,  Stellar.js and bootstrap</p>
-              </div>
-            </div> -->
-            
-           <!-- <div class="row"></div>
-          <div class="col-md-6">
-
-              
-                 
-                
-               <a href="https://naomirison.github.io/localweather/"><img src="http://i.imgur.com/LgapYwp.png" class="snapshot1" height="300" width="500" ></a>
-                
-                <a href="https://naomirison.github.io/localweather/"><h3>weather app</h3></a>
-                <p>used: html,css,jQuery, and JSON</p>
-            </div>
-
-               </div>
-                 -->
-            <!--  <div class="col-md-6">
-                
-                
-               <a href="https://naomirison.github.io/todolist/"><img src="http://i.imgur.com/ycWDWSr.png"  height="300" width="500"></a>
-                
-                <a href=" "><h3>to do list app</h3></a>
-                
-                <p>used: html, css, jQuery</p>
-
-    		
-            
-            
-    	</div>  -->
-    </div>
-    <div class="pageFour " id="p4" data-stellar-background-ratio="0.5">
-    	<h1>CONTACT:</h1>
-    	<p>email: nr.rison@gmail.com</p>
+			</div>
+		<!-- </div> -->
+    </section>
+    <section id="contact">
+    	<h1>Contact Me</h1>
+    	<h3>email: nr.rison@gmail.com</h3>
     	<p></p>
     	<div class="btnList text-center">
 			    <!-- below are url styles -->
@@ -242,17 +196,14 @@ https://www.youtube.com/watch?v=rRGrT0wsJxI
 				<a class="btn btn-default" href="https://github.com/NaomiRison"><i class="fa fa-github" aria-hidden="true"></i>Github</a>
 				
 		</div>
-    </div>
-
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-
-	<script type="text/javascript" src="jquery.stellar.min.js/lesson3"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
- 	
-     <script type="text/javascript" src="portfolio.js"></script>
-
+    	
+    </section>
 	
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
